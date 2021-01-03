@@ -1,0 +1,25 @@
+{
+  "name": "kcnew",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@snowpack/plugin-postcss": "^1.0.11",
+    "@tailwindcss/typography": "^0.3.1",
+    "autoprefixer": "^10.1.0",
+    "cssnano": "^4.1.10",
+    "csv-parse": "^4.14.2",
+    "fs-extra": "^9.0.1",
+    "handlebars": "^4.7.6",
+    "handlebars-helpers": "^0.10.0",
+    "postcss": "^8.2.2",
+    "postcss-cli": "^8.3.1",
+    "snowpack": "^2.18.5",
+    "tailwindcss": "^2.0.2",
+    "yamljs": "^0.3.0"
+  }
+}

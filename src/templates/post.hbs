@@ -1,0 +1,32 @@
+---
+data: posts.json
+script: post-pages.js
+output: 'posts/@ID@/index.html'
+---
+{{> header}}
+<div class="min-h-screen bg-white">
+
+  <div class="py-10">
+    <header>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {{> nav }}
+      </div>
+    </header>
+
+    <main>
+      <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+        <div class="px-4 py-8 sm:px-0">
+          <div class="p-6">
+            
+            <article class="prose lg:prose-xl">
+                <h1>{{name}}</h1>
+                <p>{{sub_headline}}</p>
+            </article>
+
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</div>
+{{> footer}}

@@ -1,0 +1,16 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: aliceblue;
+}
+
+.label-sp {
+    background-color: #06d;
+    color: #fff;
+    padding: 12px;
+    border-radius: .25em;
+    display: inline-block;
+}
