@@ -52,7 +52,7 @@ module.exports = function (snowpackConfig, pluginOptions) {
     let source = fs.readFileSync(filePath, 'utf8');
     let templateMeta = {};
 
-    const sourceParts = source.split('---\n');
+    const sourceParts = source.split('---');
     if (sourceParts.length > 2) {
       templateMeta = YAML.parse(sourceParts[1]);
       source = sourceParts[2];
